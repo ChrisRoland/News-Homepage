@@ -556,14 +556,30 @@ video {
   display: none;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.flex{
+  display: flex;
 }
 
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.hidden{
+  display: none;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 * {
@@ -573,6 +589,8 @@ video {
 }
 
 body {
+  width: 70%;
+  margin: 0 auto;
   font-family: 'Inter', sans-serif;
   background-color: hsl(210, 60%, 98%);
 }

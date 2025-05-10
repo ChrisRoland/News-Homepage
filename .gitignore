@@ -2,7 +2,7 @@
 *.sketch
 *.fig
 *.xd
-style-guide.md
+.style-guide.md
 
 # Dependencies
 /node_modules
