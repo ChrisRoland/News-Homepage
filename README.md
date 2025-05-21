@@ -41,5 +41,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@chrisebuberolnd](https://www.twitter.com/chrisebuberolnd)
